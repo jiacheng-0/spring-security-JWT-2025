@@ -11,7 +11,7 @@ import java.util.List;
 
 @Component
 public class JwtUtil {
-    private final String SECRET_KEY = "super-secret-key";
+    private final String SECRET_KEY = "this-is-a-very-secret-key-12345678";
     private final long EXPIRATION_TIME = 1000 * 60 * 60; // 1 hour
 
     public String generateToken(String username, List<String> roles) {
