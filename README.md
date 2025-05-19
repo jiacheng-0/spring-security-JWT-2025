@@ -1,7 +1,7 @@
 
 ![banner](./README-Banner.png)
 
-### To auth
+## To auth
 
 ```
 curl -X POST http://localhost:8080/auth/login -H "Content-Type: application/json" -d "{\"username\":\"admin\", \"password\":\"password\"}"
@@ -38,3 +38,8 @@ Expires: Mon May 19 19:28:29 SGT 2025
 ```
 
 - notice that the token expires in 1 hour
+
+## JWT Decoder
+
+![image](https://github.com/user-attachments/assets/f0a0ee0f-7ac6-4bc7-89a9-c3b216c7334e)
+
